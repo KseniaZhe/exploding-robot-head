@@ -39,10 +39,6 @@ body {
   transform: translateX(-50%);
 }
 
-.robot-brain:hover {
-  bottom: 135px;
-}
-
 .robot-head-right,
 .robot-head-left {
   width: 125px;
