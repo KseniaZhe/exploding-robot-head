@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-
   font: normal 100%/1.5 sans-serif;
 }
 
@@ -15,6 +14,9 @@ body {
 
 .banner {
   background-color: #2b3851;
+  position: relative;
+  padding-top: 6rem;
+  height: 15rem;
 }
 
 .robot {
@@ -23,13 +25,33 @@ body {
 
 .robot-body {
   width: 320px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  bottom: 128px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+}
+
+.robot-head-right {
+  position: absolute;
+  bottom: 53px;
+  left: 432px;
+}
+
+.robot-head-left {
+  position: absolute;
+  bottom: 53px;
+  left: 307px;
 }
